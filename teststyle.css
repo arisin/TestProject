@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document */
+
+	*{
+		margin:0;
+		padding:0
+	}
+
+	#main{
+		height:500px;
+		width:800px;
+	}
+	
+	#b{
+		height:400px;
+		width:400px;
+		position:absolute;
+		z-index:2;
+		top:300px;
+		left:500px;
+		background-image:url(img/body.png);
+	}
+	
+	#w{
+		height:400px;
+		width:400px;
+		position:absolute;
+		z-index:1;
+		top:300px;
+		left:500px;
+		background-image:url(img/wing.png);
+	}
